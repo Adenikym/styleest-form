@@ -91,8 +91,8 @@ export default {
 <style scoped>
   
   .form-box{
-    height:550px;
-     margin-top:35px;
+    height:90vh;
+    margin-top:5vh ;
   }
 
    @media only screen and (max-width:570px){
