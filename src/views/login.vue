@@ -1,9 +1,9 @@
 <template>
-  <div class="signup col-lg-12 px-0" style="font-family: 'Roboto', sans-serif;">
+  <div class="signup col-lg-12 px-0 mt-2" style="font-family: 'Roboto', sans-serif;">
 
   
  
-<div class="col-lg-10 offset-lg-1 col-12 offset-0 d-sm-flex mt-sm-4 shadow form-box px-0">
+<div class="col-lg-10 offset-lg-1 col-12 offset-0 d-sm-flex shadow form-box px-0">
 
    <!--sidebar-->
 
@@ -92,6 +92,7 @@ export default {
   
   .form-box{
     height:550px;
+     margin-top:35px;
   }
 
    @media only screen and (max-width:570px){
