@@ -2,7 +2,7 @@
   <div class="signup col-lg-12 px-0" style="font-family: 'Roboto', sans-serif;">
    
 
-<div class="col-lg-10 offset-lg-1 col-10 offset-1 d-sm-flex mt-sm-4 shadow  form-box px-0">
+<div class="col-lg-10 offset-lg-1 col-12 offset-0 d-sm-flex mt-sm-4 shadow  form-box px-0">
 
    <!--sidebar-->
 <sidebar></sidebar>
@@ -21,14 +21,14 @@
 
 
   <div  class="form-control mb-4 d-flex py-0 col-lg-12">
-   <div class="icon px-1 col-md-1 col-sm-2  " style="border-right:1px solid lightgrey;">
+   <div class="icon px-1 col-md-1 col-sm-2 col-2  " style="border-right:1px solid lightgrey;">
      <img src="../assets/mail.svg" style="width:20px;"  class="mt-2 mr-3" alt="">
    </div>
    <input style="border:none;" class="ml-2 " type="email"  placeholder="Email-Address">
  </div>
    
   <div  class="form-control mb-4 d-flex py-0 col-lg-12">
-   <div class="icon px-1 col-md-1 col-sm-2 " style="border-right:1px solid lightgrey;">
+   <div class="icon px-1 col-md-1 col-sm-2 col-2 " style="border-right:1px solid lightgrey;">
      <img src="../assets/padlock.svg" style="width:20px;"  class="mt-2 mr-3" alt="">
    </div>
    <input style="border:none;" class="ml-2" type="password"  placeholder="Password">
@@ -51,7 +51,7 @@
    </button>
    </div>
 
-<p class="mt-2 ">By clicking on sign up, you agree with our <a href="#"> terms of use</a> and <a href="#"> privacy policy</a>.</p>
+<p class="mt-sm-2 mt-4 text-center ">By clicking on sign up, you agree with our <a href="#"> terms of use</a> and <a href="#"> privacy policy</a>.</p>
 
    <p class="text-center mt-1">Already a member? <a href="/"> <span>Login</span></a> </p>
  </form>
@@ -83,6 +83,7 @@ export default {
   @media only screen and (max-width:570px){
 .form-box{
   margin-top:100px;
+  height: 100vh;
 }
 
   }

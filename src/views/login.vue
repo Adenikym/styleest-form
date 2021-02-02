@@ -3,7 +3,7 @@
 
   
  
-<div class="col-lg-10 offset-lg-1 col-10 offset-1 d-sm-flex mt-sm-4 shadow form-box px-0">
+<div class="col-lg-10 offset-lg-1 col-12 offset-0 d-sm-flex mt-sm-4 shadow form-box px-0">
 
    <!--sidebar-->
 
@@ -18,19 +18,19 @@
 
  
 
- <form action="" class="form-group col-lg-10 offset-lg-1 mt-4 ">
+ <form action="" class="form-group col-lg-10 offset-lg-1 col-12 mt-4 ">
 
  <p class="text-center"  style="color:grey">Login with credentials</p>
 
- <div  class="form-control mb-4 d-flex py-0 col-lg-12">
-   <div class="icon px-1  col-md-1 col-sm-2 " style="border-right:1px solid lightgrey;">
+ <div  class="form-control mb-4 d-flex py-0 col-lg-12 ">
+   <div class="icon px-1  col-md-1 col-sm-2 col-2 " style="border-right:1px solid lightgrey;">
      <img src="../assets/mail.svg" style="width:20px;"  class="mt-2 mr-3" alt="">
    </div>
    <input style="border:none;" class="ml-2" type="email"  placeholder="Email-Address">
  </div>
    
   <div  class="form-control mb-4 d-flex py-0 col-lg-12">
-   <div class="icon px-1 col-md-1 col-sm-2 " style="border-right:1px solid lightgrey;">
+   <div class="icon px-1 col-md-1 col-sm-2 col-2 " style="border-right:1px solid lightgrey;">
      <img src="../assets/padlock.svg" style="width:20px;"  class="mt-2 mr-3" alt="">
    </div>
    <input style="border:none;" class="ml-2" type="password"  placeholder="Password">
@@ -38,7 +38,7 @@
 
    <div class="extras d-flex ">
 
-<div class="form-check mt-2  ">
+<div class="form-check mt-2 d-sm-block d-none  ">
   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
   <label class="form-check-label" for="flexCheckDefault">
     Remember Me
