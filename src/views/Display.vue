@@ -1,19 +1,25 @@
 <template>
-  <div class="col-lg-12">
+  <div class="col-lg-12" style="font-family: 'Roboto', sans-serif;">
       <div class="col-lg-10 offset-lg-1">
-<h1 class="text-center h3 mt-4">Products</h1>
+<div class="top-bar d-flex col-lg-12"><h1  class="text-center h3 mt-4 col-lg-2">Products</h1>
+<div class="form-group mt-3 offset-lg-4 col-lg-5 d-none">
+    <input  type="text" class="form-control " style="color:pink;" placeholder="Search">
+    <div class="search-icon"></div>
+</div>
+</div> 
 
-<div class="wrap-product col-lg-3 mt-4">
+<div class="wrap-product col-lg-3" style="margin-top:60px;">
 <div class="single col-lg-12 shadow mt-4" style="height:300px;font-weight:700;">
 
 <img src="../assets/product.jpg"  alt="">
     
 <div class="more">
-<button>VIEW PRODUCT</button>
+<button @click="displayProduct()" >VIEW PRODUCT</button>
 </div>
 
 </div>
-<p class="mt-1 text-center">Girl's Casual Set</p>
+<p class="mt-2 text-left" style="font-size:1.3rem;font-weight:bold;line-height:0.8rem;">Girl's Casual Set</p>
+<p class="price text-left py-0" style="font-size:1.3rem;font-weight:bold;color:grey;line-height:0.8rem;">$30.00</p>
 </div>
       </div>
   </div>
@@ -23,7 +29,9 @@
 export default {
 data(){
     return{
-
+displayProduct(){
+    this.$router.push({path:'/product'})
+}
     }
 }
 }
@@ -73,7 +81,7 @@ left:0;
 }
 
 .more button{
-    margin-left:22% ;
+    margin-left:24% ;
     margin-top:140px;
     background:none;
     color:white;
@@ -93,4 +101,6 @@ animation-name: myoverlay;
     color:white;
     
 }
+
+
 </style>

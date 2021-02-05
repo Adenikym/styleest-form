@@ -7,7 +7,7 @@
 
     <div class="inner col-lg-10 offset-lg-1">
     <img src="../assets/rating.svg" style="width:10%;margin-left:2%;margin-top:80px;" alt="">
-  <h2 class="h3">Girl's Red and White Set</h2>
+  <h2 class="h3 " >Girl's Red and White Set</h2>
   <p>Comfy Casual Wear</p>
 
  <p style="font-size:1rem;"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, aliquam rerum doloremque distinctio natus .</p>
@@ -72,27 +72,28 @@
  <div class="carousel-item ">
                  <h3 class="mt-4" style="font-weight:900;" >Customer Reviews</h3>
 
-                 <p class="score" style="font-size:3rem;font-weight:800;">4.7</p>
-<div class="rate-bars px-2">
+          <div class="result d-flex"> <p class="score" style="font-size:3rem;font-weight:800;">4.7 </p>
+          <img src="../assets/rating.svg" width="65px" alt=""></div>      
+<div class="rate-bars px-2"> 
        <div class="progress mb-4 ">
-  <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="background-color:#76DB98;" ></div>
 </div>
 
    <div class="progress mb-4 ">
-  <div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="background-color:#B7EA83;"></div>
 </div>
 
  <div class="progress mb-4">
-  <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="background-color:#F6D757;"></div>
 </div>
 <div class="progress mb-4">
-  <div class="progress-bar " role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:15%;"></div>
+  <div class="progress-bar " role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:15%;background-color:#FBB851;" ></div>
 </div>
 
 <div class="progress mb-4">
-  <div class="progress-bar " role="progressbar" aria-valuenow="50" aria-valuemin="0" style="width:9%" aria-valuemax="100"></div>
+  <div class="progress-bar " role="progressbar" aria-valuenow="50" aria-valuemin="0" style="width:9%;background-color:#F17A54;" aria-valuemax="100"></div>
 </div>
-<button class="btn" style="border:1px solid pink;">VIEW ALL</button>
+<button class="btn" style="border:1px solid pink;">VIEW ALL REVIEWS</button>
 </div>
            
                 </div>
@@ -173,11 +174,11 @@ mounted(){
     transform: rotate(90deg);
 }
 .carousel-indicators li{
-    display:block; margin-bottom:5px; border:1px solid #00a199; 
+    display:block; margin-bottom:5px; border:1px solid  #ed2224; 
     
 }
 .carousel-indicators li.active{
-    margin-bottom:5px; background:#00a199;
+    margin-bottom:5px; background: #ed2224;
     
 }
 
