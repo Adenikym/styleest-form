@@ -21,7 +21,21 @@ const routes = [
     path:'/company',
     name:'company',
     component: () => import(/* webpackChunkName: "company" */ '../views/About.vue')
-  }
+  },
+
+  {
+    path:'/display',
+    name:'display',
+    component: () => import(/* webpackChunkName: "display" */ '../views/Display.vue')
+
+  },
+
+  {
+    path:'/product',
+    name:'product',
+    component: () => import(/* webpackChunkName: "product" */ '../views/FullDisplay.vue')
+
+  } 
 ]
 
 const router = new VueRouter({

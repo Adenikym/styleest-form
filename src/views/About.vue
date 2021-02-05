@@ -22,19 +22,28 @@
          
 
           </div>
-           <div class="rounded-circle " style="height:250px;width:250px;background-color:rgba(237, 34, 36,0.1);position:absolute;left:-40px;top:150px;">
-</div>
 
-<div class="pic col-lg-5 offset-lg-1">
+     <div class="pic col-lg-5 offset-lg-1">
   
-
+<div>
  <img src="../assets/company.jpg" width="80%" height="300px" alt="">
 </div>
 
+</div>    
 </div>
 
 
 
+
+ <div class="reasons col-lg-12">
+
+   <div class="col-lg-2 shadow-sm" style="background-color:white;height:70px;z-index:1;position:relative;top:90px;left:30px;font-size:0.8rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, repellat?</div>
+   <div class="col-lg-2 shadow-sm" style="background-color:white;height:70px;z-index:1;position:relative;top:130px;left:70px;font-size:0.8rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, voluptates!</div>
+   <div class="col-lg-2 shadow-sm" style="background-color:white;height:70px;z-index:1;position:relative;top:190px;left:25px;font-size:0.8rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, id?</div>
+           
+           <div style="height:450px;width:450px;background-color:rgba(255,222,222,0.3);position:absolute;left:-150px;top:0px;"></div>
+
+          </div>
 </div>
 
   </div>
