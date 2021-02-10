@@ -35,7 +35,13 @@ const routes = [
     name:'product',
     component: () => import(/* webpackChunkName: "product" */ '../views/FullDisplay.vue')
 
-  } 
+  } ,
+   {
+    path:'/video',
+    name:'video',
+    component: () => import(/* webpackChunkName: "video" */ '../views/Videoplayer.vue')
+
+  }
 ]
 
 const router = new VueRouter({
