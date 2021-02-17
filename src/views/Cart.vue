@@ -4,9 +4,15 @@
 
 <div class="cart-body col-lg-12 d-flex px-0 py-0">
     <div class="selected-products col-lg-12 ">
-        <div class="header col-lg-12  mt-4 d-flex">
+        <div class="header col-lg-12  mt-4 d-md-flex d-none">
     <h1 class="text-left offset-lg-1">Your Cart</h1>
     <img src="../assets/shopping-cart.svg" width="60px" alt="">
+</div>
+<!-- smaller screens-->
+
+ <div class="header col-sm-12  mt-4 d-md-none d-flex">
+    <h1 class="text-left ">Your Cart</h1>
+    <img src="../assets/shopping-cart.svg" width="40px" alt="">
 </div>
         <div class="cats col-lg-10 offset-lg-1 d-md-block d-none py-0 ">
             <ul  class="cat-list d-flex">
@@ -36,8 +42,8 @@
 <div class="quantity mt-2 ml-1" >
 <input  list="quantities" name="browser" id="browser" placeholder="1">
 
-<datalist id="quantities">
-  <option value="1"></option>
+<datalist width="22px"  id="quantities">
+  <option  value="1"></option>
   <option value="2"></option>
   <option value="3"></option>
 </datalist>
@@ -219,6 +225,10 @@ Checkout Items
     outline:none;
 }
 
-
+.quantity #quantities{
+    width:22px;
+   
+    
+}
 
 </style>
