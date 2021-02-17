@@ -12,7 +12,7 @@
 
  <div class=" col-sm-12  mt-4 d-md-none d-flex">
     <h1 class="text-left ">Your Cart</h1>
-    <img src="../assets/shopping-cart.svg" width="40px" height="20px" alt="">
+    <img src="../assets/shopping-cart.svg" width="40px" height="30px" class="mt-2" alt="">
 </div>
         <div class="cats col-lg-10 offset-lg-1 d-md-block d-none py-0 ">
             <ul  class="cat-list d-flex">
