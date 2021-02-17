@@ -12,7 +12,7 @@
             <ul  class="cat-list d-flex">
                 <li class="col-lg-4 ml-4">Products</li>
              
-                <li class="option col-lg-2 ml-2">  Quantity</li>
+                <li class="option col-lg-2 ml-3">  Quantity</li>
                 
                 <li  class="option col-lg-2">Unit Price</li>
                    <li  class="option col-lg-2">Subtotal</li>
@@ -33,21 +33,30 @@
 
 </div>
 
-<p class="quantity  col-lg-2"><span>-</span> <span>1</span> <span>+</span></p>
+<div class="quantity mt-2 ml-1" >
+<input  list="quantities" name="browser" id="browser" placeholder="1">
+
+<datalist id="quantities">
+  <option value="1"></option>
+  <option value="2"></option>
+  <option value="3"></option>
+</datalist>
+</div>
+
 <p class="price col-lg-2">$32</p>
 
-
+<p class="price col-lg-2">$32</p>
 
         </div>
         <div class="more-options  col-md-10  d-flex">
 
 <div class="trash  d-flex">
-    <img  src="../assets/heart.svg" width="25px" alt="">
+    <img  src="../assets/heart.svg" width="20px" alt="">
     <p class="ml-3" >Move to wishlist</p>
 </div>
 
 <div class="trash d-flex ml-3">
-    <img   src="../assets/trash-bin.svg" width="25px" alt="">
+    <img   src="../assets/trash-bin.svg" width="20px" alt="">
     <p class="ml-3">Remove</p>
 </div>
 </div>
@@ -203,5 +212,13 @@ Checkout Items
     border-radius:15px;
     background-color:#fafafa;
 }
+
+.quantity input{
+    width:22%;
+    border-radius: 10px;
+    outline:none;
+}
+
+
 
 </style>
