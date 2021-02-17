@@ -47,6 +47,12 @@ const routes = [
     name:'cart',
     component: () => import(/* webpackChunkName: "video" */ '../views/Cart.vue')
 
+  },
+  {
+    path:'/empty',
+    name:'empty',
+    component: () => import(/* webpackChunkName: "video" */ '../views/Empty.vue')
+
   }
 ]
 

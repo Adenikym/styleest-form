@@ -52,6 +52,8 @@
 
 
 <!-- product display for smaller sreens-->
+
+
 <div class="s-products col-sm-12 d-md-none d-block mt-4">
 <div class="s-product d-flex col-sm-10 offset-sm-1 shadow">
 <div class="description col-sm-7">
@@ -62,8 +64,8 @@
     <p class="number ml-2">2</p>
 </div>
 </div>
-<div class="s-pic col-sm-4" style="background-color:lightgrey;">
- <img src="../assets/product.jpg" width="70%;" class="mt-2"  alt="">
+<div class="s-pic col-sm-4" style="background-color:#e5e5e5;height:100px;margin-top:10px;">
+ <img src="../assets/product.jpg" width="70%;"  class="mt-2"  alt="">
 </div>
 </div>
 
@@ -173,6 +175,10 @@ Checkout Items
 
 .more-options{
     margin-left:12%;
+}
+
+.s-product{
+    border-radius:15px;
 }
 
 </style>
