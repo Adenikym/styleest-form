@@ -4,30 +4,44 @@
 
 <div class="cart-body col-lg-12 d-flex px-0 py-0">
     <div class="selected-products col-lg-12 ">
-        <div class="header col-lg-12  mt-4">
-    <h1 class="text-left ml-4">Your Cart</h1>
+        <div class="header col-lg-12  mt-4 d-flex">
+    <h1 class="text-left offset-lg-1">Your Cart</h1>
+    <img src="../assets/shopping-cart.svg" width="60px" alt="">
 </div>
         <div class="cats col-lg-10 offset-lg-1 d-md-block d-none py-0 ">
             <ul  class="cat-list d-flex">
                 <li class="col-lg-4 ml-4">Products</li>
              
                 <li class="option col-lg-2">  Quantity</li>
-                <li class="option col-lg-2" >Price</li>
+                
                 <li  class="option col-lg-2">Unit Price</li>
                    <li  class="option col-lg-2">Subtotal</li>
             </ul>
         </div>
 
 <!-- product display for larger sreens-->
-        <div class="product col-lg-10 offset-lg-1 d-md-flex d-none mt-4 shadow">
-            <div class="product-details col-lg-5 ">
-<div class="product-image d-flex ">
-    <img src="../assets/product.jpg" width="10%;" class="mt-1"  alt="">
-<p class="name col-lg-6">Girls Casual Set</p>
-</div>
-<div class="more-options  d-flex">
 
-<div class="trash d-flex">
+        <div class="product col-lg-10 offset-lg-1 d-md-block d-none mt-4 shadow" >
+            <div class="inner col-lg-12 d-flex">
+            <div class="product-details col-lg-5 ">
+
+
+<div class="product-image d-flex ">
+    <img src="../assets/casual.jpg" width="20%;" class="mt-1"  alt="">
+<p class="name col-lg-6 ">Girls Casual Set</p>
+</div>
+
+</div>
+
+<p class="quantity  col-lg-2"><span>-</span> <span>1</span> <span>+</span></p>
+<p class="price col-lg-2">$32</p>
+
+
+
+        </div>
+        <div class="more-options  col-md-10  d-flex">
+
+<div class="trash  d-flex">
     <img  src="../assets/heart.svg" width="25px" alt="">
     <p class="ml-3" >Move to wishlist</p>
 </div>
@@ -37,35 +51,42 @@
     <p class="ml-3">Remove</p>
 </div>
 </div>
-</div>
-
-<p class="quantity  col-lg-2"><span>-</span> <span>1</span> <span>+</span></p>
-<p class="price col-lg-2">$32</p>
-
-        </div>
     </div>
 
+  </div>
   
 </div>
 
+<!-- <div class="more-options  col-md-10  d-flex">
+
+<div class="trash  d-flex">
+    <img  src="../assets/heart.svg" width="25px" alt="">
+    <p class="ml-3" >Move to wishlist</p>
+</div>
+
+<div class="trash d-flex ml-3">
+    <img   src="../assets/trash-bin.svg" width="25px" alt="">
+    <p class="ml-3">Remove</p>
+</div>
+</div> -->
 <!-- product display for larger sreens ends-->
 
 
 <!-- product display for smaller sreens-->
 
 
-<div class="s-products col-sm-12 d-md-none d-block mt-4">
-<div class="s-product d-flex col-sm-10 offset-sm-1 shadow">
-<div class="description col-sm-7">
-    <p>Girls Casual Set</p>
+<div class="s-products col-sm-12 d-md-none d-block mt-4 mb-4">
+<div class="s-product d-flex col-sm-10 offset-sm-1 shadow p-2 ">
+<div class="description col-sm-7 text-center;">
+    <p style="font-weight:bold;font-size:1.2rem;">Girls Casual Set</p>
     <p>Chic.co</p>
 <div class="amount d-flex">
     <p class="price" style="border-right:1px solid grey;padding-right:6%;">$ <span>10.00</span></p>
     <p class="number ml-2">2</p>
 </div>
 </div>
-<div class="s-pic col-sm-4" style="background-color:#e5e5e5;height:100px;margin-top:10px;">
- <img src="../assets/product.jpg" width="70%;"  class="mt-2"  alt="">
+<div class="s-pic col-sm-4" style="height:100px;margin-top:10px;background-color:white;">
+ <img src="../assets/casual.jpg" width="90%;"  class="mt-2"  alt="">
 </div>
 </div>
 
@@ -175,10 +196,12 @@ Checkout Items
 
 .more-options{
     margin-left:12%;
+    
 }
 
 .s-product{
     border-radius:15px;
+    background-color:#fafafa;
 }
 
 </style>
