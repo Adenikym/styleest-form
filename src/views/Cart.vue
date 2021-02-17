@@ -12,7 +12,7 @@
             <ul  class="cat-list d-flex">
                 <li class="col-lg-4 ml-4">Products</li>
              
-                <li class="option col-lg-2">  Quantity</li>
+                <li class="option col-lg-2 ml-2">  Quantity</li>
                 
                 <li  class="option col-lg-2">Unit Price</li>
                    <li  class="option col-lg-2">Subtotal</li>
@@ -172,7 +172,7 @@ Checkout Items
 }
 
 .total-order{
-    background-color: #FCEEE5;
+   
     padding-bottom:10px;
 }
 
