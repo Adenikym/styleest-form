@@ -57,7 +57,7 @@
         <div class="more-options  col-md-10  d-flex">
 
 <div class="trash  d-flex">
-    <img  src="../assets/heart.svg" width="20px" height="25px" alt="" class="mt-3">
+    <img  src="../assets/heart.svg" width="20px" height="25px" alt="">
     <p class="ml-3" >Move to wishlist</p>
 </div>
 
