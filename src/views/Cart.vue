@@ -39,8 +39,8 @@
 
 </div>
 
-<div class="quantity mt-2 ml-1" >
-<input  list="quantities" name="browser" id="browser" placeholder="1">
+<div class="quantity col-lg-2 mt-3 ml-1" >
+<input   list="quantities" name="browser" id="browser" placeholder="1">
 
 <datalist width="22px"  id="quantities">
   <option  value="1"></option>
@@ -220,7 +220,8 @@ Checkout Items
 }
 
 .quantity input{
-    width:22%;
+    width:40px;
+    height: 25px;
     border-radius: 10px;
     outline:none;
 }
