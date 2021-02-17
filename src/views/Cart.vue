@@ -6,13 +6,13 @@
     <div class="selected-products col-lg-12 ">
         <div class="header col-lg-12  mt-4 d-md-flex d-none">
     <h1 class="text-left offset-lg-1">Your Cart</h1>
-    <img src="../assets/shopping-cart.svg" width="60px" alt="">
+    <img src="../assets/shopping-cart.svg" width="60px"  alt="">
 </div>
 <!-- smaller screens-->
 
  <div class=" col-sm-12  mt-4 d-md-none d-flex">
     <h1 class="text-left ">Your Cart</h1>
-    <img src="../assets/shopping-cart.svg" width="40px" alt="">
+    <img src="../assets/shopping-cart.svg" width="40px" height="20px" alt="">
 </div>
         <div class="cats col-lg-10 offset-lg-1 d-md-block d-none py-0 ">
             <ul  class="cat-list d-flex">
