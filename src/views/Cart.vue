@@ -57,12 +57,12 @@
         <div class="more-options  col-md-10  d-flex">
 
 <div class="trash  d-flex">
-    <img  src="../assets/heart.svg" width="20px" alt="">
+    <img  src="../assets/heart.svg" width="20px" height="25px" alt="" class="mt-3">
     <p class="ml-3" >Move to wishlist</p>
 </div>
 
 <div class="trash d-flex ml-3">
-    <img   src="../assets/trash-bin.svg" width="20px" alt="">
+    <img   src="../assets/trash-bin.svg" width="20px" height="25px" alt="" class="mt-3">
     <p class="ml-3">Remove</p>
 </div>
 </div>
