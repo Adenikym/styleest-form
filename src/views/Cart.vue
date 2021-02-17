@@ -10,7 +10,7 @@
 </div>
 <!-- smaller screens-->
 
- <div class="header col-sm-12   d-md-none d-flex">
+ <div class=" col-sm-12  mt-4 d-md-none d-flex">
     <h1 class="text-left ">Your Cart</h1>
     <img src="../assets/shopping-cart.svg" width="40px" alt="">
 </div>
