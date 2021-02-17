@@ -39,7 +39,7 @@
 
 </div>
 
-<div class="quantity col-lg-2 mt-3 ml-1" >
+<div class="quantity col-lg-2 mt-3 ml-3" >
 <input   list="quantities" name="browser" id="browser" placeholder="1">
 
 <datalist width="22px"  id="quantities">
