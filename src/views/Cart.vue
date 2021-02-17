@@ -39,16 +39,8 @@
 
 </div>
 
-<div class="quantity col-lg-2 col-md-3 mt-3 ml-1" >
-<input   list="quantities" name="browser" id="browser" placeholder="1">
-
-<datalist width="22px"  id="quantities">
-  <option  value="1"></option>
-  <option value="2"></option>
-  <option value="3"></option>
-  <option value="4"></option>
-  <option value="5"></option>
-</datalist>
+<div class="quantity col-lg-2 col-md-3 mt-3 ml-1 d-flex" >
+<button class="shadow">-</button> <span class="p-1">1</span> <button class="shadow">+</button>
 </div>
 
 <p class="price col-lg-2 col-md-3 ml-1">$32</p>
@@ -234,4 +226,12 @@ Checkout Items
     
 }
 
+.quantity button{
+    border:none;
+    height: 25px;
+    width:25px;
+    background-color: black;
+    color:white;
+    
+}
 </style>
