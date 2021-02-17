@@ -39,7 +39,7 @@
 
 </div>
 
-<div class="quantity col-lg-2 mt-3 ml-3" >
+<div class="quantity col-lg-2 mt-3 ml-1" >
 <input   list="quantities" name="browser" id="browser" placeholder="1">
 
 <datalist width="22px"  id="quantities">
@@ -47,10 +47,11 @@
   <option value="2"></option>
   <option value="3"></option>
   <option value="4"></option>
+  <option value="5"></option>
 </datalist>
 </div>
 
-<p class="price col-lg-2">$32</p>
+<p class="price col-lg-2 ml-1">$32</p>
 
 <p class="price col-lg-2">$32</p>
 
