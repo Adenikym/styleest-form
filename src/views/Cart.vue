@@ -33,7 +33,7 @@
 
 
 <div class="product-image d-flex ">
-    <img src="../assets/casual.jpg" width="20%;" class="mt-1"  alt="">
+    <img src="../assets/casual.jpg" width="20%;" height="50px" class="mt-1"  alt="">
 <p class="name col-lg-6 ">Girls Casual Set</p>
 </div>
 
