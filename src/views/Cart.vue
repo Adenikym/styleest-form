@@ -6,7 +6,7 @@
     <div class="selected-products col-lg-12 ">
         <div class="header col-lg-12  mt-4 d-md-flex d-none">
     <h1 class="text-left offset-lg-1">Your Cart</h1>
-    <img src="../assets/shopping-cart.svg" width="60px"  alt="">
+    <img src="../assets/shopping-cart.svg" width="60px" height="50px"  alt="">
 </div>
 <!-- smaller screens-->
 
